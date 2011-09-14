@@ -44,6 +44,10 @@ GEM
     erubis (2.7.0)
     execjs (1.2.6)
       multi_json (~> 1.0)
+    factory_girl (2.1.0)
+    factory_girl_rails (1.2.0)
+      factory_girl (~> 2.1.0)
+      railties (>= 3.0.0)
     hike (1.2.1)
     i18n (0.6.0)
     jquery-mobile (1.0b3)
@@ -127,6 +131,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.1.0)
+  factory_girl_rails
   jquery-mobile (= 1.0b3)
   jquery-rails
   mobylette
