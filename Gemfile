@@ -17,6 +17,7 @@ end
 
 gem 'jquery-rails'
 gem 'pg'
+gem 'therubyracer-heroku', '0.8.1.pre3'
 
 group :test, :development do
   gem 'rspec'
