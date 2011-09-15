@@ -2,15 +2,14 @@
 <html>
 <head>
   <title>Mobile Version!</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= javascript_include_tag "jquery.mobile.min" %>
-  <%= stylesheet_link_tag    "jquery.mobile.min" %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= stylesheet_link_tag    "application_mobile" %>
+  <%= javascript_include_tag "application_mobile" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+<div data-role="page">
+  <%= yield %>
+</div>
 </body>
 </html>

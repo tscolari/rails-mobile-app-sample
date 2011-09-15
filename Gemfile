@@ -18,7 +18,7 @@ end
 gem 'jquery-rails'
 gem 'pg'
 gem 'mobylette'
-gem 'jquery-mobile', '1.0b3'
+gem 'jquery-mobile', :git => "git://github.com/tscolari/jquery-mobile-rails.git"
 gem 'therubyracer-heroku', '0.8.1.pre3'
 
 group :test, :development do
@@ -35,5 +35,5 @@ end
 # gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'ruby-debug19', :require => 'ruby-debug'
 
