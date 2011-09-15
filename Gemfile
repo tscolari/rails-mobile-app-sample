@@ -26,6 +26,7 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'sqlite3'
   gem 'factory_girl_rails'
+  gem 'ruby-debug19', :require => 'ruby-debug'
 end
 
 # Use unicorn as the web server
@@ -33,7 +34,3 @@ end
 
 # Deploy with Capistrano
 # gem 'capistrano'
-
-# To use debugger
-gem 'ruby-debug19', :require => 'ruby-debug'
-
