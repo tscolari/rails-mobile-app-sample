@@ -1,16 +1,23 @@
 <div data-role="header">
+  <%= link_to "Back", notes_path, :"data-icon" => "arrow-l", :class => "ui-btn-left" %>
   <h1><%= @note.title %></h1>
+  <%= link_to "Edit", edit_note_path(@note), :"data-icon" => "gear", :class => "ui-btn-right" %>
+
+  <div data-role="navbar">
+    <ul>
+      <li>
+        <%= link_to @note, :confirm => 'Are you sure?', :method => :delete, :"data-icon" => "delete", :"data-iconpos" => "top" do %>
+          Delete
+        <% end %>
+      </li>
+    </ul>
+  </div>
 </div>
+
 
 <div data-role="content">
   <p id="notice"><%= notice %></p>
   <p>
     <%= @note.body %>
   </p>
-</div>
-
-<div data-role="footer">
-  <%= link_to 'Edit', edit_note_path(@note) %>
-  <%= link_to 'Destroy', @note, confirm: 'Are you sure?', method: :delete %>
-  <%= link_to 'Back', notes_path %>
 </div>

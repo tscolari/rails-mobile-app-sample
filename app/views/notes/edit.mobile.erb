@@ -1,10 +1,6 @@
 <div data-role="header">
   <h1>Editing note</h1>
+  <%= link_to "Cancel", note_path(@note), :"data-icon" => "delete", :class => "ui-btn-right" %>
 </div>
 
 <%= render 'form' %>
-
-<div data-role="footer">
-  <%= link_to 'Show', @note %>
-  <%= link_to 'Back', notes_path %>
-</div>

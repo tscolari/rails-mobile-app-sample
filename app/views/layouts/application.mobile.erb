@@ -11,6 +11,22 @@
 <body>
 <div data-role="page">
   <%= yield %>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li>
+          <%= link_to notes_path, :class => ("ui-btn-active" if action_name == 'index'), :"data-icon" => "home", :"data-iconpos" => "top" do %>
+            Home
+          <% end %>
+        </li>
+        <li>
+          <%= link_to new_note_path, :class => ("ui-btn-active" if action_name == 'new'), :"data-icon" => "plus", :"data-iconpos" => "top" do %>
+            New Note
+          <% end %>
+          </li>
+        </ul>
+    </div>
+  </div>
 </div>
 </body>
 </html>
