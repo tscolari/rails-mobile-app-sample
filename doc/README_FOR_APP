@@ -1,2 +1,13 @@
-Use this README file to introduce your application and point to useful places in the API for learning more.
-Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+=== Mobile Application Sample
+
+This is an example of how to use mobylette gem and jquery mobile to deliver a mobile version of a Rails application.
+
+* The tutorial is here: http://devtscolarime.andronautas.com.br/2011/09/15/how-to-build-a-mobile-rails-3-1-app
+* And the application is running on heroku here: http://mobile-sample-app.heroku.com
+
+Access it from your cell phone too:
+
+{<img src="http://qrcode.kaywa.com/img.php?s=5&#038;d=http%3A%2F%2Fmobile-sample-app.heroku.com%2F&.png" />}
+
+
+
