@@ -18,7 +18,7 @@ end
 gem 'jquery-rails'
 gem 'pg'
 gem 'mobylette'
-gem 'jquery-mobile', :git => "git://github.com/tscolari/jquery-mobile-rails.git"
+gem 'jquery_mobile_rails'
 gem 'therubyracer-heroku', '0.8.1.pre3'
 
 group :test, :development do
