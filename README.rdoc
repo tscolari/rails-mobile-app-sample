@@ -2,7 +2,7 @@
 
 This is an example of how to use mobylette gem and jquery mobile to deliver a mobile version of a Rails application.
 
-* The tutorial is here: http://devtscolarime.andronautas.com.br/2011/09/15/how-to-build-a-mobile-rails-3-1-app
+* The tutorial is here: http://dev.tscolari.me/2011/09/15/how-to-build-a-mobile-rails-3-1-app
 * And the application is running on heroku here: http://mobile-sample-app.heroku.com
 
 Access it from your cell phone too:
