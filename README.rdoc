@@ -7,7 +7,6 @@ This is an example of how to use mobylette gem and jquery mobile to deliver a mo
 
 Access it from your cell phone too:
 
-{<img src="http://qrcode.kaywa.com/img.php?s=5&#038;d=http%3A%2F%2Fmobile-sample-app.heroku.com%2F&.png" />}
-
+http://qrcode.kaywa.com/img.php?s=5&#038;d=http%3A%2F%2Fmobile-sample-app.heroku.com%2F&.png
 
 
